@@ -1,3 +1,14 @@
+html{
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
+}
+
 @font-face {
     font-family: AlegreyaSC-BlackItalic;
     src: url(font/AlegreyaSC-BlackItalic.ttf);
